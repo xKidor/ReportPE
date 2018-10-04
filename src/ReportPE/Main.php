@@ -63,6 +63,7 @@ class Main extends PluginBase implements Listener{
                                         }
                                         }else{ 
                                             $sender->sendMessage(TextFormat::RED."Player not online!");
+						return true;
 					}
 				}
 		 	
@@ -91,7 +92,7 @@ class Main extends PluginBase implements Listener{
             case "reportpe":
                 $sender->sendMessage(TextFormat::YELLOW."------------");
                 $sender->sendMessage(TextFormat::GREEN."ReportPE created by CookieCode. Twitter : @ImCookieGame");
-                $sender->sendMessage(TextFormat::RED."Youtube : Cookiz);
+                $sender->sendMessage(TextFormat::RED."Youtube : Cookiz");
                 $sender->sendMessage(TextFormat::YELLOW."------------");
 				return true;
 			}
