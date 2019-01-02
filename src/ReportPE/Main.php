@@ -89,7 +89,7 @@ class Main extends PluginBase implements Listener{
 			            return true;
 		}
 			
-            case "reportpe":
+            case "reportinfo":
                 $sender->sendMessage(TextFormat::YELLOW."------------");
                 $sender->sendMessage(TextFormat::GREEN."ReportPE created by CookieCode. Twitter : @ImCookieGame");
                 $sender->sendMessage(TextFormat::RED."Youtube : Cookiz");
